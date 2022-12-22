@@ -21,4 +21,4 @@ When designing a checklist, we need to assess what is it we want to achieve, wha
 
 These will help us get those essential but crucial elements out of the way and get focused on our job
 
-Link to book: https://www.bookdepository.com/Checklist-Manifesto-Atul-Gawande/9781846683145?ref=grid-view&qid=1641534177744&sr=1-1
+[Link to book on Book Depository](https://www.bookdepository.com/Checklist-Manifesto-Atul-Gawande/9781846683145?ref=grid-view&qid=1641534177744&sr=1-1)
