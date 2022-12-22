@@ -56,9 +56,9 @@ The team went on to develop this MVP and release it to the customers in a fracti
 
 Not only were we able to deliver value iteratively, but since we only focused on a narrow path it gave other advantages
 
-    * Validation of the new design in the hands of the customers
-    * The team did not need to develop a Trans-Tasman or an international design till much later
-    * Increased confidence in monitoring and alerting of the service as the load slowly increase
+* Validation of the new design in the hands of the customers
+* The team did not need to develop a Trans-Tasman or an international design till much later
+* Increased confidence in monitoring and alerting of the service as the load slowly increase
 
 Looking back at our approach the key element that made this a success was a strong engagement with the business stake holders. Having their input and buy in to delivering a fraction of the promised functionality in the customer’s hands was crucial. We used real metrics to measure customer satisfaction with our new design. It also helped us tweak features that were causing issues and iterate on the features that were well received.
 
