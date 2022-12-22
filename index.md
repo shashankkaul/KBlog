@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: Welcome to Kblog
 ---
 Hi I'm Shashank Kaul. I'm new to blogging and trying to make a habbit of it. My current day job is the CTO of [Webjet](https://www.webjet.com.au/) 
 
