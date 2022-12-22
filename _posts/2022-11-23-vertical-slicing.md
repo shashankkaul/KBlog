@@ -7,11 +7,11 @@ But back when we started our agile journey, this usually meant working on the ba
 
 I didn’t know the word for it at the time, but we were doing Horizontal Slicing, i.e. breaking down work based on its functional area, without taking a holistic end to end approach. We were iteratively delivering a car by delivering only the wheels first.
 
-![MVP](/assets/images/Skateboard-to-car-MVP.png) 
+![MVP](/assets/images/Skateboard-to-car-MVP.png "MVP") 
 
 Going back to the core principles, we looked at how we can deliver a true MVP, something that provides value to the customer and to the company, something that we are happy to have in production. We came across the concept of vertical slicing, which helped us articulate the MVP approach.
 
-![Vertical and Horizontal Slicing](/assets/images/vertical-vs-horizontal-slices.png)
+![Vertical and Horizontal Slicing](/assets/images/vertical-vs-horizontal-slices.png "Vertical and Horizontal Slicing")
 
 Using the example of creating a new flight search experience for mobile browsers, I will share our thinking and how we approached vertical slicing, which will help crystalize the concept
 
