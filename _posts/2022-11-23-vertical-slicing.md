@@ -7,26 +7,26 @@ But back when we started our agile journey, this usually meant working on the ba
 
 I didn’t know the word for it at the time, but we were doing Horizontal Slicing, i.e. breaking down work based on its functional area, without taking a holistic end to end approach. We were iteratively delivering a car by delivering only the wheels first.
 
-![MVP](/assets/images/Skateboard-to-car-MVP.png "MVP") 
+![MVP](/assets/images/vertical-slicing/Skateboard-to-car-MVP.png "MVP") 
 
 Going back to the core principles, we looked at how we can deliver a true MVP, something that provides value to the customer and to the company, something that we are happy to have in production. We came across the concept of vertical slicing, which helped us articulate the MVP approach.
 
-![Vertical and Horizontal Slicing](/assets/images/vertical-vs-horizontal-slices.png "Vertical and Horizontal Slicing")
+![Vertical and Horizontal Slicing](/assets/images/vertical-slicing/vertical-vs-horizontal-slices.png "Vertical and Horizontal Slicing")
 
 Using the example of creating a new flight search experience for mobile browsers, I will share our thinking and how we approached vertical slicing, which will help crystalize the concept
 
 Our flight search experience for mobile needed an update. The incumbent design was a copy of the legacy app experience, built using JQuery mobile integrated into our monolith. This made making changes more complicated and take longer to deliver. It was not aligned with our strategy of splitting it into independently deployable microservices.
 
-![Old Mobile Search](/assets/images/Old-mobileSearch.png)
+![Old Mobile Search](/assets/images/vertical-slicing/Old-mobileSearch.png)
 
 We decided to create a new React based service to render the responsive front end coupled with a new search API. This would make iterative changes less complex and faster to market. But there were a lot of features to deliver, multiple result views, and the integration with the legacy platform.
 
-![New Mobile Search](/assets/images/New-mobileSearch.png)
+![New Mobile Search](/assets/images/vertical-slicing/New-mobileSearch.png)
 
 To help define the workflow the team documented the high level workflow
 
 
-![High level workflow for mobile Flight Search](/assets/images/VS-Revisted-Frame-1-2048x801.png)
+![High level workflow for mobile Flight Search](/assets/images/vertical-slicing/VS-Revisted-Frame-1-2048x801.png)
 
 To help guide our decision in defining the MVP we looked at the following
 
@@ -50,7 +50,7 @@ Based on this we determined the first slice as a
 4. That can be searched and booked end to end: reduces key path dependency
 
 
-![MVP identified in Mobile Flight Search](/assets/images/VS-Revisted-Frame-2-2048x801.png)
+![MVP identified in Mobile Flight Search](/assets/images/vertical-slicing/VS-Revisted-Frame-2-2048x801.png)
 
 The team went on to develop this MVP and release it to the customers in a fraction of the time of the full design build. After based on feedback from data gathered, we iteratively added more features starting with supporting return search and result filtering. The team could quickly support more routes and passenger mixes using feature flags as their confidence grew in the new services.
 
