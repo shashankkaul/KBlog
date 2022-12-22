@@ -30,24 +30,24 @@ To help define the workflow the team documented the high level workflow
 
 To help guide our decision in defining the MVP we looked at the following
 
-    * Data on the booking mix i.e. domestic vs Trans-Tasman vs international, one-way vs return, passenger mix etc
-    * Key path dependencies
-    * An MVP that delivers value to the customer
+* Data on the booking mix i.e. domestic vs Trans-Tasman vs international, one-way vs return, passenger mix etc
+* Key path dependencies
+* An MVP that delivers value to the customer
 
 The following were the results of the analysis
 
-    * A large majority of the bookings were domestic, so the real value from a customer’s POV lay there
-    * As domestic volume was higher any issues in the new path could be amplified
-    * A wide range of passenger mixes existed, e.g. 1 adult, 2 adult and 1 child, 2 adults etc
-    * Integrating into the legacy shopping cart was a key dependency.  Until now the search and booking happened in the same platform.
-    * The incumbent mobile design was quite dated and had limited functionality. Customers could only sort on 4 attributes and there was no filtering
+* A large majority of the bookings were domestic, so the real value from a customer’s POV lay there
+* As domestic volume was higher any issues in the new path could be amplified
+* A wide range of passenger mixes existed, e.g. 1 adult, 2 adult and 1 child, 2 adults etc
+* Integrating into the legacy shopping cart was a key dependency.  Until now the search and booking happened in the same platform.
+* The incumbent mobile design was quite dated and had limited functionality. Customers could only sort on 4 attributes and there was no filtering
 
 Based on this we determined the first slice as a
 
-    1. Single one-way adult search: limits the scope of the customer cohort
-    2. For a medium capacity route: reduces the risk of unexpected failures and provides value to the customer
-    3. With just the sort functionality currently supported: limits the feature set that needs to be built
-    4. That can be searched and booked end to end: reduces key path dependency
+1. Single one-way adult search: limits the scope of the customer cohort
+2. For a medium capacity route: reduces the risk of unexpected failures and provides value to the customer
+3. With just the sort functionality currently supported: limits the feature set that needs to be built
+4. That can be searched and booked end to end: reduces key path dependency
 
 
 ![MVP identified in Mobile Flight Search](/assets/images/VS-Revisted-Frame-2-2048x801.png)
