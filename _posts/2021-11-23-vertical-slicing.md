@@ -1,5 +1,5 @@
 ---
-title: "Vertical-Slicing"
+title: "Vertical Slicing"
 date: 2021-11-23
 ---
 
